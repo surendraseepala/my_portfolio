@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;1,200&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="right">
+                <p class="para">Surendra Seepala Portfolio</p>
+            </div>
+            <div class="left">
+                <ul>
+                    <li><a class="navlinks" href="index.html">Home</a></li>
+                    <li><a class="navlinks" href="#">About</a></li>
+                    <li><a class="navlinks" href="resume.html">Resume</a></li>
+                    <li><a class="navlinks" href="projects.html">Projects</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="section_align">
+            <div class="section_left">
+
+                Hi! My name is <span class="name_color">Surendra</span>! and I am a passionate
+                <span id="element"></span>
+
+            </div>
+            <div class="section_right">
+                <image id="logo" src="logo2.jpg" alt="logo here">
+
+            </div>
+
+        </section>
+        <hr>
+        <section class="second_section">
+            <span class="gray">what i have learn so far</span>
+            <h1>My Skills</h1>
+
+            <div class="box">
+                <div class="vertical_line">
+                    <img class="image_top" src="newhtmllogo.jpg" alt="dev logo">
+                    <div class="text_vertical">HTML5</div>
+                </div>
+                <div class="vertical_line">
+                    <img class="image_top" src="css.jpg" alt="dev logo">
+                    <div class="text_vertical">CSS3</div>
+                </div>
+                <div class="vertical_line">
+                    <img class="image_top" src="boostrap.jpg" alt="dev logo">
+                    <div class="text_vertical">Bootstrap</div>
+                </div>
+                <div class="vertical_line">
+                    <img class="image_top" src="newjs.jpg" alt="dev logo">
+                    <div class="text_vertical">JavaScript</div>
+                </div>
+                <div class="vertical_line">
+                    <img class="image_top" src="python.jpg" alt="dev logo">
+                    <div class="text_vertical">Python</div>
+                </div>
+            </div>
+
+        </section>
+    </main>
+    <div class="copyright">
+        <p>all rights are received@2023 Suredra Seepala</p>
+    </div>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Graphics Designer', 'Frontend web developer'],
+            typeSpeed: 50,
+        });
+
+    </script>
+
+
+</body>
+
+</html>

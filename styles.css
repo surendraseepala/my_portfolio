@@ -1,0 +1,137 @@
+/* *{
+    margin: 0;
+} */
+body{
+    background-color: rgb(0, 0, 33);
+    color: white;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+ align-items: center;
+ justify-content: space-evenly;
+ background-color: rgba(18, 18, 98);
+ height: 80px;
+ 
+}
+nav ul{
+    display: flex;
+    justify-content: space-evenly;
+  
+   
+}
+nav li{
+     list-style: none;
+    text-decoration: none;
+    margin-left: 23px;
+    margin-right:23px ;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+}
+.navlinks:hover{
+color: aqua;
+font-size: 1.02rem;
+}
+.para  {
+    font-size: 27px;
+}
+.section_align{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 140px 0;
+}
+.section_left{
+    width: 30%;
+    height: 300px;
+   
+    
+}
+.section_left {
+ font-size: 3rem;
+}
+.section_right{
+    
+    width: 50%;
+    height: 400px;
+   
+}
+#logo{
+   width: 80%; 
+   height: 350px;
+}
+.name_color{
+    color: blueviolet;
+}
+#element{
+    color: blueviolet;
+}
+.second_section{
+    max-width: 80vw;
+    margin: auto;
+   height: 40vh; 
+   
+}
+.second_section h1{
+   font-size: 1.5rem;
+   margin: 0;
+}
+.box {
+    background-color: white;
+    width: 60vw; /* Change width to 1px */
+    height: 1px; /* Change height to 100% */
+    display: flex;
+    margin: 40px;
+}
+
+.second_section .vertical_line {
+    background-color: white;
+    height: 90px; /* Change height to 100% */
+    width: 1px;
+    margin: 0 100px;
+}
+
+hr {
+    border: 0;
+    background-color: green;
+    height: 1px;
+    margin: 40px 0; /* Remove the right margin */
+}
+.gray{
+    color: gray;
+}
+.image_top{
+   
+    width: 23px;
+    position: relative;
+    top: -32px;
+    left: -10px;
+}
+.text_vertical{
+    position: relative;
+    top: 70px;
+    left: -15px;
+}
+.footer_section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(18, 18, 98);
+}
+.footer_section ul li{
+  list-style:  none; 
+  padding: 5px 0;
+}
+.copyright{
+    width: 100%;
+    height: 30px;
+    background-color:rgb(16, 16, 168);
+    text-align: center;
+    /* margin:10px 0; */
+    padding: 1rem 0;
+}

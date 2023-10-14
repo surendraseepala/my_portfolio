@@ -1,0 +1,56 @@
+body{
+    background-color: #ffff;
+}
+.unorder_list {
+    margin: 1rem ;
+    padding: 0;
+    list-style: none;
+}
+
+.unorder_list li {
+    margin: .5rem 0;
+    padding: .5rem 0;
+    border-left: 3px solid #3498db;
+    background-color: #fff; 
+    border-radius: 5px; 
+}
+
+.unorder_list li:last-child {
+    margin-bottom: 0; 
+}
+
+h3 {
+   
+    color: magenta; 
+}
+
+
+main {
+    padding: 2rem;
+    background-color: #fff; 
+}
+
+section {
+    text-align: left;
+    max-width: 800px;
+    margin: 0 auto;
+    color: #3498db;
+}
+
+section h1{
+    text-align: center;
+    color: rgb(165, 0, 165);
+    
+}
+
+section {
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    border-radius: 10px;
+}
+ h3:hover{
+ color: #fff;
+ background-color: #000;
+
+}

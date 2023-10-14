@@ -1,0 +1,26 @@
+.image_first{
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+  display: block;
+  margin-top: 16px;
+    
+}
+ .image_second{
+     /* margin-top: 2rem; */
+     width: 80%;
+     height: auto;
+     margin: 0 auto;
+     display: block; 
+     margin-bottom: 1rem;
+    
+} 
+.img_section{
+width: 80%;
+height: auto;
+  margin: 0 auto;
+  display: block;
+}
+body{
+  background-color: #fff;
+}

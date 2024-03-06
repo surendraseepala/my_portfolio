@@ -67,7 +67,7 @@ span{
    
 }
 #logo{
-   width: 80%; 
+   width: 60%; 
    height: 350px;
    margin-left: 10rem;
 }
@@ -89,7 +89,7 @@ span{
 }
 .box {
     background-color: white;
-    width: 72vw; /* Change width to 1px */
+    width: 75vw; /* Change width to 1px */
     height: 1px; /* Change height to 100% */
     display: flex;
     margin: 40px;

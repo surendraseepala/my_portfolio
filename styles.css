@@ -39,9 +39,6 @@ color: firebrick
     margin-left: 1rem;
 
 }
-.right p:hover{
-    color:red
-}
 span{
     margin-bottom: 1rem;
 }
@@ -73,7 +70,6 @@ span{
    width: 60%; 
    height: 350px;
    margin-left: 10rem;
-   border-radius: 50%;
 }
 .name_color{
     color: blueviolet;
